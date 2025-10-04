@@ -1,3 +1,165 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #D9D9D9;
+	overflow-x: hidden;
+}
+
+.topMenu {
+	display: inline-flex;
+	box-sizing: border-box;
+	border-bottom: solid #403734 1.2px;
+	background-color: #0D0D0D;
+	height: 65px;
+	width: 100vw;
+	padding: 15px 0px 0px 45px;
+}
+
 h1 {
-	color: rgb(202, 13, 13);
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	font-family: "Bebas Neue";
+	color: #D9D9D9;
+	letter-spacing: 1px;
+}
+
+button {
+	text-decoration: none;
+	border: none;
+}
+
+.dContainer {
+	height: 140px;
+}
+
+p, span {
+	color: #0D0D0D;
+	font-family: "Fira Code";
+}
+
+.enterB {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: 50px;
+	margin-top: 5px;
+	font-family: "Fira Code";
+	font-size: 14px;
+	letter-spacing: 1px;
+	background-color: #A69C98;
+	font-weight: 500;
+	color: #0D0D0D;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 8px;
+	transition: color 0.2s, background-color 0.2s, font-weight 0.2s;
+}
+
+.enterB:hover {
+	background-color: #736A62;
+	color: #D9D9D9;
+	font-weight: 400;
+}
+
+.container {
+	margin-top: 10px;
+	padding-bottom: 5px;
+	text-align: center;
+	border-bottom: solid #403734 1.2px;
+}
+
+.cat {
+	color: #0D0D0D;
+}
+
+.t1 {
+	padding-left: 40px;
+	padding-bottom: 0;
+	margin-bottom: 5px;
+	color: #0D0D0D;
+	font-size: 22px;
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+	grid-template-rows: 620px;
+	padding: 10px 0 0 30px;
+}
+
+.card {
+	border: solid #A69C98 1.2px;
+	width: 350px;
+	height: 595px;
+	margin: 15px 0 0 0px;
+	border-radius: 8px;
+	text-align: center;
+	transition: transform 0.2s;
+}
+
+.card:hover {
+	transform: scale(1.025);
+}
+
+h3 {
+	font-family: "Fira Code";
+	font-weight: 500;
+	color: #D9D9D9;
+	background-color: #0D0D0D;
+	letter-spacing: 1px;
+	font-size: 20px;
+	line-height: 30px;
+	margin: 0 10px 0 15px;
+	border-radius: 8px;
+	text-align: center;
+}
+
+
+.cardDesc {
+	padding: 0 10px 0 15px;
+	text-align: start;
+	margin-top: 35px;
+}
+
+.cardPrice {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 35px;
+	border-top: solid #A69C98 1.2px;
+}
+
+.priceS {
+	padding: 10px 10px 0px 30px;
+	display: inline-block;
+	text-align: left;
+	font-size: 26px;
+}
+
+.cardB {
+	text-decoration: none;
+	display: inline-block;
+	text-align: center;
+	font-family: "Fira Code";
+	background-color: #0D0D0D;
+	color: #D9D9D9;
+	font-weight: 500;
+	font-size: 18px;
+	margin: 0;
+	height: 50px;
+	width: 195px;
+	border-bottom-right-radius: 8px;
+	transition: background-color 0.2s, color 0.2s;
+}
+
+.cardB:hover {
+	background-color: #A69C98;
+	color: #0D0D0D;
+}
+
+.cardI {
+	width: 300px;
+	height: 300px;
+	text-align: center;
 }
