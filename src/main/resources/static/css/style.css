@@ -19,7 +19,8 @@ h1 {
 	display: inline-block;
 	margin: 0;
 	padding: 0;
-	font-family: "Bebas Neue";
+	font-family: "General Sans";
+	font-weight: 600;
 	color: #D9D9D9;
 	letter-spacing: 1px;
 }
@@ -35,7 +36,7 @@ button {
 
 p, span {
 	color: #0D0D0D;
-	font-family: "Fira Code";
+	font-family: "General Sans";
 }
 
 .enterB {
@@ -43,7 +44,7 @@ p, span {
 	margin-left: auto;
 	margin-right: 50px;
 	margin-top: 5px;
-	font-family: "Fira Code";
+	font-family: "General Sans";
 	font-size: 14px;
 	letter-spacing: 1px;
 	background-color: #A69C98;
@@ -104,7 +105,7 @@ p, span {
 }
 
 h3 {
-	font-family: "Fira Code";
+	font-family: "General Sans";
 	font-weight: 500;
 	color: #D9D9D9;
 	background-color: #0D0D0D;
@@ -141,7 +142,7 @@ h3 {
 	text-decoration: none;
 	display: inline-block;
 	text-align: center;
-	font-family: "Fira Code";
+	font-family: "General Sans";
 	background-color: #0D0D0D;
 	color: #D9D9D9;
 	font-weight: 500;
