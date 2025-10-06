@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="eng">
+<head>
+	<meta charset="UTF-8" />
+	<title>Sign up to Retro Comp</title> 
+	<link rel="stylesheet" th:href="@{/css/style.css}" />
+</head>
+<body>
+	<div class="lContainer">
+		<h3 class="r1">Sign up to retro comp</h3>
+
+		<button class="loginGoogle"><span class="gContainer"><img class="gimg" src="/images/search.png" alt=""/></span>Continue with Google</button>
+
+		<h2 class="crossline"><span class="or">or</span></h2>
+
+		<label for="login_field">Email address</label>
+		<input type="text" id="login_field"/>
+
+		<label for="password">Password</label>
+		<input type="password" id="password"/>
+
+		<label for="name">Username</label>
+		<input type="text" id="name"/>
+
+		<button class="loginCheck">Log in</button>
+
+		<p class="newAcc">Already have account? <a href="/login">Sign in</a></p>
+	</div>
+</body>
+</html>
